@@ -172,7 +172,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: calc(10px + 10 * (100vw - 375px) / 1545);
+  gap: calc(5px + 15 * (100vw - 375px) / 1545);
 }
 .header__right img {
   width: 100%;
@@ -1220,8 +1220,8 @@ h2 {
 }
 .menuActive {
   width: calc(30px + 20 * (100vw - 375px) / 1545);
+  margin-left: calc(5px + 15 * (100vw - 375px) / 1545);
   position: relative;
-  margin-left: 20px;
   transition: 0.5s;
 }
 .menuActive::after, .menuActive::before {

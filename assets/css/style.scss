@@ -84,7 +84,7 @@ h2 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        @include razmer("gap", 20, 10);
+        @include razmer("gap", 20, 5);
 
         & img {
             width: 100%;
@@ -1303,8 +1303,8 @@ h2 {
 // Меню для телефонной версии
 .menuActive {
     @include razmer("width", 50, 30);
+    @include razmer("margin-left", 20, 5);
     position: relative;
-    margin-left: 20px;
     transition: 0.5s;
 
     &::after,
