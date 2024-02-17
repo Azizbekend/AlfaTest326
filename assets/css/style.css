@@ -1219,14 +1219,14 @@ h2 {
   }
 }
 .menuActive {
-  width: 50px;
+  width: calc(30px + 20 * (100vw - 375px) / 1545);
   position: relative;
   margin-left: 20px;
   transition: 0.5s;
 }
 .menuActive::after, .menuActive::before {
   content: "";
-  height: 3px;
+  height: calc(2px + 1 * (100vw - 375px) / 1545);
   width: 100%;
   position: absolute;
   background-color: white;

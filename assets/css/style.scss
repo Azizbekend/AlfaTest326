@@ -1302,7 +1302,7 @@ h2 {
 
 // Меню для телефонной версии
 .menuActive {
-    width: 50px;
+    @include razmer("width", 50, 30);
     position: relative;
     margin-left: 20px;
     transition: 0.5s;
@@ -1310,7 +1310,7 @@ h2 {
     &::after,
     &::before {
         content: "";
-        height: 3px;
+        @include razmer("height", 3, 2);
         width: 100%;
         position: absolute;
         background-color: white;
